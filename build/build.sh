@@ -1,6 +1,7 @@
 #!/bin/bash
-cd /var/www/
+mkdir build-output
+cd build-output/
 
-composer require ircmaxell/random-lib
+touch "test-$(date +%F)"
 
-#composer create-project laravel/laravel {directory} 4.2 --prefer-dist
+composer create-project laravel/laravel example-app
