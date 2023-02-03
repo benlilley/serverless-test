@@ -1,4 +1,9 @@
 #!/bin/bash
+
+rm -rf {directory}/
+rm -rf build-output/
+
+cd public/
 mkdir build-output
 cd build-output/
 
