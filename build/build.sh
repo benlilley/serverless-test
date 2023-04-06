@@ -1,7 +1,7 @@
 #!/bin/bash
 
 rm -rf {directory}/
-rm -rf build-output/
+rm -rf public/build-output/
 
 cd public/
 mkdir build-output
