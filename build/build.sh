@@ -1,6 +1,5 @@
 #!/bin/bash
 
-rm -rf {directory}/
 rm -rf public/build-output/
 
 cd public/
